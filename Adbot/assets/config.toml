@@ -1,0 +1,14 @@
+[telegram]
+# Get your API ID/HASH from https://my.telegram.org/auth
+
+phone_number="+1 123123123123"
+api_id=00000000
+api_hash="xxxxxx"
+
+[sending]
+# The send interval is how long you want to wait between sending messages.
+# The loop interval is how long you want to wait before re-sending messages to all the groups.
+
+# Sending Limits
+send_interval=6
+loop_interval=3600
